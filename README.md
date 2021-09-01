@@ -80,5 +80,6 @@ DIFFVG_CUDA=0 python setup.py install
 ## Running
 
 ```zsh
+conda activate conda-ml-py39
 cd ~/ml-py39/ && jupyter lab
 ```
