@@ -60,7 +60,8 @@ conda install -c pytorch pytorch==1.9.0 torchvision==0.10.0
 conda install braceexpand omegaconf torch-optimizer \
               tqdm ftfy regex kornia pytorch-lightning \
               einops scikit-image cssutils wrapt opt_einsum \
-              gast astunparse termcolor pandas ipywidgets
+              gast astunparse termcolor pandas ipywidgets \
+              jupyterlab
 pip install git+https://github.com/pvigier/perlin-numpy
 pip install torch-tools
 ```
