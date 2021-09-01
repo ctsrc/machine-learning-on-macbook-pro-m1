@@ -32,8 +32,8 @@ notebooks on your MacBook Pro M1.
 ```zsh
 brew install miniforge
 
-conda create -n conda-ml-py38 python=3.8
-conda activate conda-ml-py38
+conda create -n conda-ml-py39 python=3.9
+conda activate conda-ml-py39
 
 # https://developer.apple.com/metal/tensorflow-plugin/
 conda install -c apple tensorflow-deps
@@ -42,12 +42,12 @@ python -m pip install tensorflow-metal
 
 # https://stackoverflow.com/a/53546634
 conda install ipykernel
-ipython kernel install --user --name=setterpels38
+ipython kernel install --user --name=setterpels39
 ```
 
 ```zsh
-mkdir -p ~/ml
-cd ~/ml/
+mkdir -p ~/ml-py39
+cd ~/ml-py39/
 
 git clone https://github.com/openai/CLIP
 git clone https://github.com/dribnet/clipit
@@ -80,5 +80,5 @@ DIFFVG_CUDA=0 python setup.py install
 ## Running
 
 ```zsh
-cd ~/ml/ && jupyter lab
+cd ~/ml-py39/ && jupyter lab
 ```
