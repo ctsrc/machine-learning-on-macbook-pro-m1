@@ -1,4 +1,4 @@
-# MacBook Pro M1 ML
+# Machine Learning on Apple MacBook Pro M1
 
 A repository for running machine learning models on Apple MacBook Pro M1.
 
